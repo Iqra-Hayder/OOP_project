@@ -19,10 +19,10 @@ public void setZipCode(int zipCode){
 }
 /////// getters
 public String getCity(){
-  return city;
+  return this.city;
 }
 public int getZipCode(){
-  return zipCode;
+  return this.zipCode;
 }
 
 @Override
