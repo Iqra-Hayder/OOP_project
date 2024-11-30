@@ -34,14 +34,6 @@ public String toString(){
 
 public class Main {
   public static void main(String[] args) {
-  Address address = new Address("islamabad", 455000);
-  System.out.println(address.getCity());
-  address.setCity("lahore");
-  System.out.println(address.getZipCode());
-  address.setZipCode(3456767);
-  System.out.println(address.toString());
+  
   }
-  
-
-  
 }
