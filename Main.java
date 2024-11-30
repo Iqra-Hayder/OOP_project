@@ -38,9 +38,6 @@ class Person{
 }
 public class Main {
     public static void main(String[] args) {
-        Person p = new Person("abc","abc@gamail","11/11/2003");
-        System.out.println(p.toString());   
+      
     }
-  
-  
 }
