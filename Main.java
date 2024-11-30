@@ -1,5 +1,35 @@
 package OOP_project;
-<<<<<<< HEAD
+class Address{
+    private String city;
+    private int zipCode;
+   ////// Constructors
+   Address(){}
+   Address(String city, int zipCode){
+       this.city = city;
+       this.zipCode = zipCode;
+   }
+   /////// setters
+   public void setCity(String city){
+      this.city = city;
+   }
+   public void setZipCode(int zipCode){
+     this.zipCode = zipCode;
+   }
+   /////// getters
+   public String getCity(){
+     return this.city;
+   }
+   public int getZipCode(){
+     return this.zipCode;
+   }
+   
+   @Override
+   public String toString(){
+     return "City: " + city + ", Zip Code: " + zipCode ;
+   }
+   
+   }//End of Address class
+   
 class Person{
   protected String name;
   protected String email;
@@ -36,48 +66,10 @@ class Person{
   public String toString(){
     return "Name: "+this.name+"\nEamil: "+this.email+"\nDate Of Birth: "+this.dateOfBirth;
   }
-}
-public class Main {
-    public static void main(String[] args) {
-      
-    }
-=======
-
-
-class Address{
- private String city;
- private int zipCode;
-////// Constructors
-Address(){}
-Address(String city, int zipCode){
-    this.city = city;
-    this.zipCode = zipCode;
-}
-/////// setters
-public void setCity(String city){
-   this.city = city;
-}
-public void setZipCode(int zipCode){
-  this.zipCode = zipCode;
-}
-/////// getters
-public String getCity(){
-  return this.city;
-}
-public int getZipCode(){
-  return this.zipCode;
-}
-
-@Override
-public String toString(){
-  return "City: " + city + ", Zip Code: " + zipCode ;
-}
-
-}
+}//End of Person class
 
 public class Main {
   public static void main(String[] args) {
   
   }
->>>>>>> Branch1
 }
